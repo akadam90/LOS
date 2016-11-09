@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d279850fd4e64fca831289f4a48673b7" Name="Diagram1" ZoomLevel="82" >
+        <EntityTypeShape EntityType="LOSEntities.Platform_Operations_Digital_lk" Width="1.5" PointX="0.5" PointY="8.25" />
+        <EntityTypeShape EntityType="LOSEntities.Platform_Operations_Local_lk" Width="1.5" PointX="0.5" PointY="5.875" />
+        <EntityTypeShape EntityType="LOSEntities.Platform_Operations_OOH_lk" Width="1.5" PointX="12.75" PointY="6.875" />
+        <EntityTypeShape EntityType="LOSEntities.Platform_Operations_Publishing_lk" Width="1.5" PointX="10.75" PointY="4.125" />
+        <EntityTypeShape EntityType="LOSEntities.Platform_Operations_Video_lk" Width="1.5" PointX="7.625" PointY="13.125" />
+        <EntityTypeShape EntityType="LOSEntities.Client_Operations_lk" Width="1.5" PointX="10.25" PointY="8.75" />
+        <EntityTypeShape EntityType="LOSEntities.Project_Management_lk" Width="1.5" PointX="0.5" PointY="17" />
+        <EntityTypeShape EntityType="LOSEntities.Project_Management_Duration_lk" Width="1.5" PointX="3.625" PointY="15" />
+        <EntityTypeShape EntityType="LOSEntities.TAAG_Estimate_and_CPM_lk" Width="1.5" PointX="2.75" PointY="10.75" />
+        <EntityTypeShape EntityType="LOSEntities.Scenario" Width="1.5" PointX="7.25" PointY="16" />
+        <EntityTypeShape EntityType="LOSEntities.Scenario_Run_Types" Width="1.5" PointX="10" PointY="17.125" />
+        <EntityTypeShape EntityType="LOSEntities.Client" Width="1.5" PointX="10" PointY="15.25" />
+        <AssociationConnector Association="LOSEntities.ScenarioScenario_Run_Types" />
+        <AssociationConnector Association="LOSEntities.ScenarioClient" />
+        <EntityTypeShape EntityType="LOSEntities.Calculated_Scenarios" Width="1.5" PointX="4.625" PointY="6.875" />
+        <EntityTypeShape EntityType="LOSEntities.User" Width="1.5" PointX="7.25" PointY="19.625" />
+        <AssociationConnector Association="LOSEntities.UserScenario" />
+        <EntityTypeShape EntityType="LOSEntities.PM_Skills" Width="1.5" PointX="0.625" PointY="22.25" />
+        <EntityTypeShape EntityType="LOSEntities.Tech_Expertise" Width="1.5" PointX="2.375" PointY="22.375" />
+        <EntityTypeShape EntityType="LOSEntities.Project_Visibility" Width="1.5" PointX="4.5" PointY="22.375" />
+        <EntityTypeShape EntityType="LOSEntities.Service_Level" Width="1.5" PointX="0.5" PointY="12.875" />
+        <AssociationConnector Association="LOSEntities.Project_Management_lkPM_Skills" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="LOSEntities.Project_Management_lkProject_Visibility" />
+        <AssociationConnector Association="LOSEntities.Project_Management_lkTech_Expertise" />
+        <AssociationConnector Association="LOSEntities.Project_Management_lkService_Level" />
+        <EntityTypeShape EntityType="LOSEntities.PM_Duration" Width="1.5" PointX="3.625" PointY="19.25" />
+        <AssociationConnector Association="LOSEntities.Project_Management_Duration_lkPM_Duration" />
+        <AssociationConnector Association="LOSEntities.Project_Management_Duration_lkService_Level" />
+        <EntityTypeShape EntityType="LOSEntities.Platform_Ops_Publishing_Values" Width="1.5" PointX="7.875" PointY="6.75" />
+        <EntityTypeShape EntityType="LOSEntities.Platform_Ops_OOH_Value" Width="1.5" PointX="7.625" PointY="10.25" />
+        <EntityTypeShape EntityType="LOSEntities.Platform_Ops_Local_Values" Width="1.5" PointX="2.75" PointY="6.5" />
+        <EntityTypeShape EntityType="LOSEntities.Bill_Pay" Width="1.5" PointX="8" PointY="1" />
+        <EntityTypeShape EntityType="LOSEntities.Bill_Pay_Traffic" Width="2.125" PointX="5" PointY="0.5" />
+        <AssociationConnector Association="LOSEntities.Bill_Pay_TrafficBill_Pay" />
+        <AssociationConnector Association="LOSEntities.Bill_Pay_TrafficService_Level" />
+        <AssociationConnector Association="LOSEntities.Platform_Ops_OOH_ValueCalculated_Scenarios" />
+        <AssociationConnector Association="LOSEntities.Platform_Ops_Publishing_ValuesCalculated_Scenarios" />
+        <AssociationConnector Association="LOSEntities.Platform_Ops_Local_ValuesCalculated_Scenarios" />
+        <AssociationConnector Association="LOSEntities.Platform_Operations_Digital_lkCalculated_Scenarios" />
+        <AssociationConnector Association="LOSEntities.TAAG_Estimate_and_CPM_lkCalculated_Scenarios" />
+        <AssociationConnector Association="LOSEntities.Platform_Operations_Video_lkCalculated_Scenarios" />
+        <AssociationConnector Association="LOSEntities.Project_Management_Duration_lkCalculated_Scenarios" />
+        <AssociationConnector Association="LOSEntities.ScenarioCalculated_Scenarios" />
+        <AssociationConnector Association="LOSEntities.Bill_Pay_TrafficCalculated_Scenarios" ></AssociationConnector>
+        <AssociationConnector Association="LOSEntities.Bill_Pay_TrafficCalculated_Scenarios1" />
+        <AssociationConnector Association="LOSEntities.Bill_Pay_TrafficCalculated_Scenarios2" />
+        <AssociationConnector Association="LOSEntities.Bill_Pay_TrafficCalculated_Scenarios3" />
+        <AssociationConnector Association="LOSEntities.Bill_Pay_TrafficCalculated_Scenarios4" />
+        <AssociationConnector Association="LOSEntities.Bill_Pay_TrafficCalculated_Scenarios5" />
+        <AssociationConnector Association="LOSEntities.Client_Operations_lkCalculated_Scenarios" />
+        <AssociationConnector Association="LOSEntities.Project_Management_lkCalculated_Scenarios" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,146 @@
+﻿body {    
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.navbar-custom {
+background-color: #07889B;
+}
+
+.navbar-brand {
+text-align:left;
+color:#E37222;
+font-family: 'Arima Madurai', cursive;
+font-weight:bold;
+font-size:30px;
+padding-top:20px;
+padding-bottom:20px;
+
+}
+
+.navbar-custom .navbar-nav >li > a, .navbar-custom .navbar-nav .userblock{
+    color:#DFDCE3;
+    font-size:15px;    
+    font-weight:bold;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-right:10px;
+    padding-left:10px;
+    
+}
+.navbar-custom .navbar-nav > li > a:hover,.navbar-custom .navbar-nav > li > a:focus  {
+    background-color:#E37222;  
+    height:100%;
+    }
+.navbar-custom .navbar-nav .dropdown {
+    background-color:#E37222;  
+}
+.navbar-custom .navbar-nav .dropdown .dropdown-menu > li > a:hover, .navbar-custom .navbar-nav .dropdown .dropdown-menu > li > a:focus {
+background-color: #07889B;
+}
+
+.navbar-custom .navbar-nav .active > a {
+    background-color:#E37222;      
+height:100%;
+margin:0;
+}
+
+.navbar-brand:hover {
+    color:#E37222;
+    
+    }
+.navbar-custom .navbar-nav .log-out-btn {
+     background-color:#E37222;  
+     color:#DFDCE3;
+     padding-top:20px;
+    padding-bottom:20px;
+}
+
+.dropdown .dropdown-toggle, .dropdown .dropdown-toggle:focus {
+     background-color:#E37222;
+}
+.dropdown .dropdown-menu >li > a:focus, .dropdown .dropdown-menu >li > a:hover{
+background-color: #07889B;
+}
+
+.btn, .btn:hover, btn:focus {
+  background-color:#E37222;
+  color:#DFDCE3;
+}
+p {
+font-size:40px;
+text-align:center;
+font-weight: bold;font-family: 'Arima Madurai', cursive;
+
+}
+
+#default-scenario-btn {
+color:#07889B;
+background-color:#EEAA7B
+}
+
+
+#accordion .ui-accordion-header {
+  background-color: #07889B;
+  color:#DFDCE3;
+  padding-top:10px;
+  padding-bottom:10px;
+  border:solid;
+  border-color:#E37222;
+  cursor:pointer;
+  text-align:center;
+  margin: 0px;
+}
+
+#accordion .ui-accordion-header a {
+  color:#DFDCE3;
+  line-height: 42px;
+  display: block;
+  font-size: 12pt;
+  width: 100%;
+  text-indent: 10px;
+}
+
+input
+{
+    border:0;
+    border-bottom:solid 1px #000;
+    outline:none;
+}
